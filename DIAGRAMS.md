@@ -421,9 +421,9 @@ flowchart TB
     end
     
     subgraph Format["파일 형식 (JSONL)"]
-        Meta["{"_type":"metadata",...}"]
-        Msg1["{"role":"user",...}"]
-        Msg2["{"role":"assistant",...}"]
+        Meta["_type: metadata"]
+        Msg1["role: user"]
+        Msg2["role: assistant"]
     end
     
     File1 --> Format
